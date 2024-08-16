@@ -1,0 +1,27 @@
+$fondo_creditos:DeepSkyBlue;
+$fondo_home:DarkOrange;
+$fondo_instrucciones:yellowgreen;
+$fondo_juego:violet;
+$fondo_splash:lightseaGreen;
+$btn-color: Navy;
+$txt-color: white;
+
+body{
+    margin:0;
+    padding: 0;
+}
+section{
+    width:340px;
+    height:440px;
+    text-align:center;
+}
+.boton{
+    background-color: $btn-color;
+    color:$txt-color;
+    padding: 10px;
+    text-decoration: none;
+}
+.volver{
+    margin-left: -300px;
+    line-height: 50px;
+}

@@ -1,3 +1,2 @@
 window.onload = ()=>{
-    alert("Prueba!");
 }
