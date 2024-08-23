@@ -13,8 +13,10 @@ function init(){
     btns["btn_juego"] = document.getElementById("btn_juego");
     btns["btn_creditos"] = document.getElementById("btn_creditos");
     btns["btn_instrucciones"] = document.getElementById("btn_instrucciones");
+
     asignarEventosMenu();
     asignarVolver();
+
     setTimeout(()=>{
         cargarSeccion("home");
     }, 3000);
@@ -47,4 +49,5 @@ function cambiarSeccion(e){
 function cargarSeccion(seccion){
     ocultar();
     refs[seccion].classList.remove("ocultar");
+    refs[seccion].classList.add("animate__animated", "animate__slideInLeft");
 }
