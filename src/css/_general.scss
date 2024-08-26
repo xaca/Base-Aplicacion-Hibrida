@@ -13,6 +13,13 @@ body{
     align-items: center;
     height: 100vh;
 }
+#app{
+    width: 340px;
+    height: 440px;
+    margin:0 auto;
+    border:1px solid magenta;
+    overflow: hidden;
+}
 section{
     width:340px;
     height:440px;
