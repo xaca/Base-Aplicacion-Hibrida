@@ -49,5 +49,5 @@ function cambiarSeccion(e){
 function cargarSeccion(seccion){
     ocultar();
     refs[seccion].classList.remove("ocultar");
-    refs[seccion].classList.add("animate__animated", "animate__slideInLeft");
+    refs[seccion].classList.add("animate__animated", "animate__fadeIn");
 }
