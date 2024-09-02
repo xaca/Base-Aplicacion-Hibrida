@@ -14,3 +14,5 @@ Esta es una plantilla base para crear una aplicación SPA (Single Page Applicati
 - [Activar modo desarrollador](https://www.samsung.com/co/support/mobile-devices/galaxy-a5-2017-how-to-enable-the-developer-options/)
 - [Activar modo depuración](https://www.wideanglesoftware.es/droidtransfer/help/c%C3%B3mo-conectar-android-utilizando-usb.php)
 - [Kies - Samsung](https://www.samsung.com/co/support/kies/)
+- [Bluestacks](https://www.bluestacks.com/es/index.html)
+- [Photopea](https://www.photopea.com/)
