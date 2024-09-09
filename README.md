@@ -6,21 +6,29 @@ Esta es una plantilla base para crear una aplicación SPA (Single Page Applicati
 
 - Clonar el repositorio
 - Ingresar a la carpeta del repositorio clonado
-- Instalar las dependencias con el comando npm i
-- Ejecutar el proyecto de manera local npm run local
-- Para ver el proyecto para producción npm run build
+- Instalar las dependencias con el comando
+	-  `npm i`
+- Ejecutar el proyecto de manera local 
+	- `npm run local`
+- Para ver el proyecto para producción 
+	- `npm run build`
 - Ingresar a la url que aparece en la terminal desde el navegador
 
 ## Instrucciones para crear el proyecto de android y crear la aplicación hibrida
 
 - Instalar las herramientas de [Capacitor JS](https://capacitorjs.com/docs/getting-started) usando npm
-- Inicializar el proyecto npx cap init
-- Instalar dependencias proyecto android npm i @capacitor/android
-- Creación del proyecto npx cap add android
-- Sincronización del proyecto, envia los archivos de la carpeta dist a la carpeta assets del proyecto android npx cap sync
-- Abrir el proyecto en android studio npx cap open android
+- Inicializar el proyecto 
+	- `npx cap init`
+- Instalar dependencias proyecto android 
+	- `npm i @capacitor/android`
+- Creación del proyecto 
+	- `npx cap add android`
+- Sincronización del proyecto, envía los archivos de la carpeta dist a la carpeta assets del proyecto android 
+	- `npx cap sync`
+- Abrir el proyecto en android studio 
+	- `npx cap open android`
 
-## FAQ (9 septiembre 2024 - Actualizado para Android Koala)
+## FAQ  (9 septiembre 2024 - Actualizado para Android Koala)
 
 - Al cargar o abrir el proyecto en windows aparece un mensaje de windows defender, este mensaje se cierra seleccionando configuración automatica, para que no se relentice la ejecución de los procesos de android studio.
 - La primera vez que se abre el proyecto en android studio, se debe esperar a que el programa configure las dependencias y el proyecto en general, por tanto tener presente estar atentos a los mensajes de estado en la parte inferior derecha 
@@ -34,3 +42,4 @@ Esta es una plantilla base para crear una aplicación SPA (Single Page Applicati
 - [Kies - Samsung](https://www.samsung.com/co/support/kies/)
 - [Bluestacks](https://www.bluestacks.com/es/index.html)
 - [Photopea](https://www.photopea.com/)
+
