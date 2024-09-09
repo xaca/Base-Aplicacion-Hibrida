@@ -5,13 +5,19 @@
   "scripts": {
     "clean": "rimraf dist",
     "local": "http-server -p 3000",
-    "build": "npm run clean & parcel build ./src/index.html",
+    "build": "npm run clean & parcel build ./src/index.html --public-url ./",
     "start": "parcel ./src/index.html",
     "rm": "rimraf node_modules & rimraf .parcel-cache & rimraf src",
     "move": "mv dist/* .",
     "hibrida": "npx cap init",
     "android": "npx cap add android",
-    "sync": "npx cap sync"
+    "sync": "npx cap sync",
+    "open": "npx cap open android",
+    "setup": "npm install & npm run build & npm run hibrida & npm run android & npm run sync & npm run open"
+  },
+  "staticFiles": {
+    "staticPath": "public",
+    "watcherGlob": "**"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +30,7 @@
   "devDependencies": {
     "@capacitor/cli": "^6.1.2",
     "@parcel/transformer-sass": "^2.12.0",
-    "parcel": "^2.12.0"
+    "parcel": "^2.12.0",
+    "parcel-plugin-static-files-copy": "^2.6.0"
   }
 }
