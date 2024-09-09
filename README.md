@@ -1,4 +1,4 @@
-# Protecto base para aplicación híbrida
+# Proyecto base para aplicación híbrida
 
 Esta es una plantilla base para crear una aplicación SPA (Single Page Application), para probar el proyecto, seguir los siguientes pasos:
 
