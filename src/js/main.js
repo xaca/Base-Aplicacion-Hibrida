@@ -20,6 +20,15 @@ function init(){
     setTimeout(()=>{
         cargarSeccion("home");
     }, 3000);
+    
+    if(!localStorage.getItem("nombre"))
+    {
+        localStorage.setItem("nombre", "Andres");
+    }
+    else
+    {
+        alert(localStorage.getItem("nombre"));
+    }
 }
 function asignarVolver(){
     let btns_volver = document.querySelectorAll(".volver");
